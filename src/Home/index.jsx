@@ -2,6 +2,7 @@ import Header from "../Components/Header";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "../globals.css"
+import Footer from "../Components/Footer";
 
 
 export default function Home(){
@@ -32,6 +33,8 @@ export default function Home(){
             <img src="https://th.bing.com/th?id=OIP.rQuMMWCET4ggc19D3UzsDQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Slide 1"/>
         </div>
     </Carousel>
+
+    <Footer title={"desenvolver"}/>
     </>
     )
 }

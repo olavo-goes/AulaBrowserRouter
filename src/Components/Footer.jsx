@@ -1,5 +1,5 @@
 
 
-export default function Footer(){
-    <h1>FOOTER</h1>
+export default function Footer({title}){
+    return(<h1>{title}</h1>)
 }
