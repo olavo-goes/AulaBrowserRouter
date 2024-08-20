@@ -9,8 +9,8 @@ export default function Home(){
     return(
     <>
         <div className="cabecalho">
+        <Header></Header>
             <h1>minha Home</h1>
-            <Header></Header>
         </div>
         
         <Carousel
