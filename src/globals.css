@@ -5,39 +5,36 @@
     background-color: #ffffff;
 }
 
+/* oferta estilização */
 
-img{
-    border-style: solid;
-}
-
-.bloco{
+.bloco-principal{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-.imagembloco{
-    border: none;
-}
-
-.card{
-    margin: 5px;
-    background-color: grey;
-    width: 240px;
-    height: 390px;
-    border-radius: 10px;
-    border-style: solid;
+.bloco-produtos{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
 }
 
+.bloco-produtos > div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
-.clicarB{
-    padding: auto;
-    color: whitesmoke;
-    background-color: rgb(75, 47, 47);
+.bloco-produtos > div > button{
+    margin-top: 5px;
+    margin: 5px;
+    background-color: rgb(175, 173, 173);
+    border-style: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
     cursor: pointer;
-    border: none;
-    border-radius: 10px;
 }
 
 
@@ -45,8 +42,21 @@ img{
 .rodape{
     bottom: 0;
     position: absolute;
-    width: 100%;
-    height: 120px;
+    margin: 0;
+}
+
+ul > li{
     text-align: center;
-    background-color: rgb(54, 63, 60);
+    list-style: none;
+}
+
+li{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(67, 71, 71);
+    cursor: pointer;
+    margin: 150px;
+    display: inline;
+    font-size: larger;
+    color: rgb(0, 0, 0);
 }
