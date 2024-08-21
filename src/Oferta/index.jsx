@@ -114,7 +114,7 @@ export default function Oferta(){
                         <td>{item.item}</td>
                         <td>{item.preco}</td>
                         <td>
-                        <button onClick={() => adcOferta(item)}>adc</button>
+                        <button onClick={() => adcOferta(item)}>x</button>
                         </td>
                     </tr>
                 </table>
