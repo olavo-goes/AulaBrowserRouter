@@ -62,6 +62,10 @@ export default function Home(){
             item:"celular",
             imagem: "https://images.samsung.com/is/image/samsung/p6pim/br/sm-f741bakjzto/gallery/br-galaxy-zflip6-f741-sm-f741bakjzto-thumb-542629707?$252_252_PNG$"
         },
+
+
+
+        
     ])
 
     const [listaOfertas, setOfertas] = useState ([])
@@ -76,6 +80,7 @@ export default function Home(){
     <>
         <div className="cabecalho">
         <Header></Header>
+        <h1>$$tore</h1>
         </div>
         
         <Carousel
@@ -96,8 +101,9 @@ export default function Home(){
         <div>
             <img src="https://images.samsung.com/is/image/samsung/assets/br/offer/watches/New-Offer_PF_Desk_4.jpg?imwidth=1366" alt="Slide 3"/>
         </div>
-    </Carousel>
 
+        
+    </Carousel>
     <div className="bloco-principal">
             <div className="bloco-produtos">
                 {promocao.map((item) => <div key={item.id}>
@@ -125,9 +131,9 @@ export default function Home(){
         }
         </div>
         <div className="rodape">
-    <Footer title={"footer"}/>
-    <h1>oi</h1>
-    </div>
+        <Footer title={""}/>
+        <h2>Desenvolvido Por: Olavo Goes</h2>
+        </div>
 
     </>
     )

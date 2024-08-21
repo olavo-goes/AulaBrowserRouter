@@ -1,6 +1,6 @@
 import { useState } from "react";
-
-
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 export default function Oferta(){
     const[promocao,setPromocao] = useState([
@@ -83,7 +83,34 @@ export default function Oferta(){
             imagem: "https://images.samsung.com/is/image/samsung/p6pim/br/sm-f956bzskzto/gallery/br-galaxy-z-fold6-f956-514097-sm-f956bzskzto-thumb-542639576?$252_252_PNG$",
             preco: "25,90R$"
         },
+
+        {
+            id:1,
+            item:"celular",
+            imagem: "https://images.samsung.com/is/image/samsung/p6pim/br/sm-f956bzskzto/gallery/br-galaxy-z-fold6-f956-514097-sm-f956bzskzto-thumb-542639576?$252_252_PNG$",
+            preco: "25,90R$"
+        },
+
+        {
+            id:1,
+            item:"celular",
+            imagem: "https://images.samsung.com/is/image/samsung/p6pim/br/sm-f956bzskzto/gallery/br-galaxy-z-fold6-f956-514097-sm-f956bzskzto-thumb-542639576?$252_252_PNG$",
+            preco: "25,90R$"
+        },
+
+        {
+            id:1,
+            item:"celular",
+            imagem: "https://images.samsung.com/is/image/samsung/p6pim/br/sm-f956bzskzto/gallery/br-galaxy-z-fold6-f956-514097-sm-f956bzskzto-thumb-542639576?$252_252_PNG$",
+            preco: "25,90R$"
+        },
         
+        {
+            id:1,
+            item:"celular",
+            imagem: "https://images.samsung.com/is/image/samsung/p6pim/br/sm-f956bzskzto/gallery/br-galaxy-z-fold6-f956-514097-sm-f956bzskzto-thumb-542639576?$252_252_PNG$",
+            preco: "25,90R$"
+        },
     ])
 
     const [listaOfertas, setOfertas] = useState ([])
@@ -93,7 +120,12 @@ export default function Oferta(){
 
 
     return(
+        <>
 
+        <div className="cabecalho">
+        <Header></Header>
+        <h1>$$$tore</h1>
+        </div>
 
         <div className="bloco-principal">
             <div className="bloco-produtos">
@@ -121,5 +153,11 @@ export default function Oferta(){
             </div>)
         }
         </div>
+
+
+        <div className="rodape">
+        <h2>Desenvolvido Por: Olavo Goes</h2>
+    </div>
+        </>
     )
 }
