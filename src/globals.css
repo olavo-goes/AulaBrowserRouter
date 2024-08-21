@@ -2,12 +2,51 @@
     margin-top: 0px;
     width: 100%;
     padding: 10px;
-    background-color: aqua;
+    background-color: #ffffff;
 }
 
 
 img{
-    width: 300px;
-    height: 300px;
+    border-style: solid;
 }
 
+.bloco{
+    display: flex;
+    justify-content: center;
+}
+
+.imagembloco{
+    border: none;
+}
+
+.card{
+    margin: 5px;
+    background-color: grey;
+    width: 240px;
+    height: 390px;
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.clicarB{
+    padding: auto;
+    color: whitesmoke;
+    background-color: rgb(75, 47, 47);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.rodape{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    background-color: rgb(54, 63, 60);
+}

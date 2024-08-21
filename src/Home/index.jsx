@@ -11,7 +11,6 @@ export default function Home(){
     <>
         <div className="cabecalho">
         <Header></Header>
-            <h1>minha Home</h1>
         </div>
         
         <Carousel
@@ -24,17 +23,22 @@ export default function Home(){
         dynamicHeight
      >
         <div>
-            <img src="https://th.bing.com/th?id=OIP.rQuMMWCET4ggc19D3UzsDQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Slide 1"/>
+            <img src="https://images.samsung.com/is/image/samsung/assets/br/offer/14924_New-Offer_PF_Desk_1440x344.png?imwidth=1366" alt="Slide 1"/>
         </div>
         <div>
-            <img src="https://th.bing.com/th?id=OIP.rQuMMWCET4ggc19D3UzsDQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Slide 1"/>
+            <img src="https://images.samsung.com/is/image/samsung/assets/br/offer/15299_01_New-Offer_PF_Desk_1440x344asefd.jpg?imwidth=1366" alt="Slide 2"/>
         </div>
         <div>
-            <img src="https://th.bing.com/th?id=OIP.rQuMMWCET4ggc19D3UzsDQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Slide 1"/>
+            <img src="https://images.samsung.com/is/image/samsung/assets/br/offer/watches/New-Offer_PF_Desk_4.jpg?imwidth=1366" alt="Slide 3"/>
         </div>
     </Carousel>
 
+
+    <div className="rodape">
     <Footer title={"desenvolver"}/>
+    <h1>oi</h1>
+    </div>
+
     </>
     )
 }

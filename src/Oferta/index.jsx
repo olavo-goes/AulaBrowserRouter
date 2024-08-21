@@ -1,5 +1,5 @@
-export default function Oferta (){
+export default function Oferta(){
     return(
-        <p>Minha Oferta</p>
+        <></>
     )
 }

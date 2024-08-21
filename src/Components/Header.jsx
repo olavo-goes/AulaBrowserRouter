@@ -12,7 +12,7 @@ export default function Header(){
                     <Link to="/oferta">
                     <li>Oferta</li>
                     </Link>
-                    <Link to="/produtos">
+                    <Link to="/listarprodutos">
                     <li>Produtos</li>
                     </Link>
                 </ul>
