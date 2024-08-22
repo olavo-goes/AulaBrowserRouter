@@ -12,7 +12,7 @@ import ListarProdutos from "../Components/ListarProdutos";
 
 
 export default function Home(){
-    const[promocao,setPromocao] = useState([
+    const[produto,setProduto] = useState([
         {
             id:1,
             item:"celular",
@@ -71,10 +71,9 @@ export default function Home(){
 
         
     ])
-
-    const [listaOfertas, setOfertas] = useState ([])
-    const adcOferta = (item) => {
-        setOfertas([...listaOfertas,item])
+    const [listaProduto, setListaProduto] = useState ([])
+    const adcProduto = (item) => {
+        setListaProduto([...listaProduto,item])
     }
 
 
@@ -111,7 +110,8 @@ export default function Home(){
   
 
 
-  <ListarProdutos promocao={promocao} adcOferta={adcOferta}/>
+    <ListarProdutos produto={produto} adcProduto={adcProduto}/>
+        
         
 
 

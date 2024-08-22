@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 import ListarProdutos from "../Components/ListarProdutos";
 
 export default function Oferta(){
-    const[promocao,setPromocao] = useState([
+    const[produto,setProduto] = useState([
         {
             id:9,
             item:"celular",
@@ -115,9 +115,9 @@ export default function Oferta(){
         },
     ])
 
-    const [listaOfertas, setOfertas] = useState ([])
-    const adcOferta = (item) => {
-        setOfertas([...listaOfertas,item])
+    const [listaProduto, setListaProduto] = useState ([])
+    const adcProduto = (item) => {
+        setListaProduto([...listaProduto,item])
     }
 
 
@@ -129,7 +129,7 @@ export default function Oferta(){
         <Header></Header>
         </div>
 
-        <ListarProdutos promocao={promocao} adcOferta={adcOferta}/>
+        <ListarProdutos produto={produto} adcProduto={adcProduto}/>
         
 
         <div className="rodape">
