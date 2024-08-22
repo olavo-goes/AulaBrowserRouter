@@ -13,6 +13,5 @@ export default function ListarProdutos({adcOferta,promocao}){
             </div>)}
         </div>
     </div>
-    
     )
 }

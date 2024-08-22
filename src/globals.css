@@ -9,6 +9,8 @@ body{
     margin-top: 0px;
     width: 100%;
     padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
     text-align: center;
     color: white;
     background-color: #020d3f;
