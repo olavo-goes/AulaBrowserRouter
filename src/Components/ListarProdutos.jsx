@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
+import "../globals.css"
 
-
-export default function ListarProdutos({adcProduto,produto}){
+export default function ListarProdutos({produto}){
     return(
         <div className="bloco-principal">
         <div className="bloco-produtos">
@@ -9,6 +9,7 @@ export default function ListarProdutos({adcProduto,produto}){
             <img src={item.imagem}/>
             <p>{item.item}</p>
             <p>{item.preco}</p>
+
             <button onClick={() => adcProduto(item)}>Adicionar</button>
             </div>)}
         </div>

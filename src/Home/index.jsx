@@ -7,23 +7,23 @@ import { useState } from "react";
 import ListarProdutos from "../Components/ListarProdutos";
 
 
-
-
-
-
 export default function Home(){
     const[produto,setProduto] = useState([
         {
             id:1,
             item:"celular",
             imagem: "https://images.samsung.com/is/image/samsung/p6pim/br/sm-f956bzskzto/gallery/br-galaxy-z-fold6-f956-514097-sm-f956bzskzto-thumb-542639576?$252_252_PNG$",
-            preco: "25,90R$"
+            preco: "25,90R$",
+            string:[
+                "produto",
+                "produto2"
+            ]
         },
         {
             id:2,
             item:"celular",
             imagem: "https://images.samsung.com/is/image/samsung/p6pim/br/2407/gallery/br-galaxy-watch7-l300-sm-l300nzgazto-thumb-542363219?$252_252_PNG$",
-            preco: "25,90R$"
+            preco: "25,90R$",
         },
         {
             id:3,
@@ -65,12 +65,11 @@ export default function Home(){
             item:"celular",
             imagem: "https://images.samsung.com/is/image/samsung/p6pim/br/sm-f741bakjzto/gallery/br-galaxy-zflip6-f741-sm-f741bakjzto-thumb-542629707?$252_252_PNG$",
             preco: "25,90R$"
-        },
-
-
-
-        
+        },        
     ])
+
+
+
     const [listaProduto, setListaProduto] = useState ([])
     const adcProduto = (item) => {
         setListaProduto([...listaProduto,item])
@@ -103,23 +102,15 @@ export default function Home(){
         </div>
         <div>
             <img src="https://images.samsung.com/is/image/samsung/assets/br/offer/watches/New-Offer_PF_Desk_4.jpg?imwidth=1366" alt="Slide 3"/>
-        </div>
-
-        
+        </div>        
     </Carousel>
   
-
-
     <ListarProdutos produto={produto} adcProduto={adcProduto}/>
-        
-        
-
-
+    
         <div className="rodape">
         <Footer title={""}/>
         <h2>Desenvolvido Por: Olavo Goes</h2>
         </div>
-
     </>
     )
 }
