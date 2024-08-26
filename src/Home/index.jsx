@@ -137,15 +137,11 @@ export default function Home(){
             <img src="https://images.samsung.com/is/image/samsung/assets/br/offer/watches/New-Offer_PF_Desk_4.jpg?imwidth=1366" alt="Slide 3"/>
         </div>        
     </Carousel>
-    
-  <div>
-  <ListarProdutos Lproduto={Lproduto}/>
-  </div>
-    
-    
+
+        <ListarProdutos Lproduto={Lproduto}/>
+
         <div className="rodape">
-        <Footer title={""}/>
-        <h2>Desenvolvido Por: Olavo Goes</h2>
+        <Footer title={"Desenvolvido Por: Olavo Goes"}/>
         </div>
     </>
     )

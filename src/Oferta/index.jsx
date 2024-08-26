@@ -200,7 +200,6 @@ export default function Oferta(){
 
     return(
         <>
-
         <div className="cabecalho">
         <h1>Ofertas</h1>
         <Header></Header>
@@ -208,10 +207,9 @@ export default function Oferta(){
 
         <ListarProdutos Lproduto={Lproduto} />
         
-
         <div className="rodape">
-        <h2>Desenvolvido Por: Olavo Goes</h2>
-    </div>
+        <Footer title={"Desenvolvido Por: Olavo Goes"}/>
+        </div>
         </>
     )
 }

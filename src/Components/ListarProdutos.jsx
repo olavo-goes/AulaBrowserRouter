@@ -10,11 +10,11 @@ export default function ListarProdutos({Lproduto}){
             <p>{item.item}</p>
             <p>{item.preco}</p>
             {item.vetor.map((vetor) => (
-  <p key={vetor}>{vetor}</p>
-))}
-
+            <p key={vetor}>{vetor}</p>
+        ))}
 
             <button onClick={() => Lproduto(item)}>Adicionar</button>
+            
             </div>)}
         </div>
     </div>

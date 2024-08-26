@@ -297,8 +297,10 @@ export default function Produtos(){
    
 
 
-return(<>
-<div className="cabecalho">
+return(
+
+    <>
+        <div className="cabecalho">
         <h1>Todos os Produtos</h1>
         <Header></Header>
         </div>
@@ -306,12 +308,9 @@ return(<>
         <ListarProdutos Lproduto={Lproduto}/>
 
 
-    <div className="rodape">
-    <Footer title={"Desenvolvido Por: Olavo Goes"}/>
-    </div>
-
-
-
+        <div className="rodape">
+        <Footer title={"Desenvolvido Por: Olavo Goes"}/>
+        </div>
     </>
     )
 }
